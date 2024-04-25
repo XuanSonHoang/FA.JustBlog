@@ -77,8 +77,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("Index", "Post")">Home</a></li>
-                    @foreach (var ie in categories)
-                    {
+                    @foreach (var ie in categories) {
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("PostIncludeCates", "Post", new { CateId = ie.Id })">@ie.Name</a></li>
                     }
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/Tag/PopularTags">Popular Tags</a></li>
@@ -122,71 +121,65 @@
                     </a>
                 </div>
 
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="@Url.RouteUrl("Post", new { year = Model.PostedOn.Year, month = Model.PostedOn.Month.ToString("00"), Title = Model.Title })">
-                            <h2 class="post-title">@Model.Title</h2>
-                        </a>
-                        @{
+                <!-- Divider-->
+                <hr class="my-4" />
+                <!-- Post preview-->
+                <div class="post-preview">
+                    <a href="@Url.RouteUrl("Post", new { year = Model.PostedOn.Year, month = Model.PostedOn.Month.ToString("00"), Title = Model.Title })">
+                        <h2 class="post-title">@Model.Title</h2>
+                    </a>
+                    @{
                         var timePost = Model.PostedOn;
-                            int time = DateTime.Now.Hour - timePost.Hour;
-                            if (time == 0)
-                            {
-                                time = DateTime.Now.Minute - timePost.Minute;
-                                <sub class="post-subtitle">Posted @time minutes ago with rate @Model.Rate by @Model.ViewCount view(s)</sub>
-                            }
-                            if (time < 24 && time > 0)
-                            {
-                                <sub class="post-subtitle">Posted @time Hours ago with rate @Model.Rate by @Model.ViewCount view(s)</sub>
-                            }
-
-                            else if (DateTime.Now.Day - timePost.Day == 24)
-                            {
-                                <sub class="post-subtitle">Posted yesterday with rate @Model.Rate by @Model.ViewCount view(s)</sub>
-                            }
-                            else
-                            {
-                                <sub class="post-subtitle">Posted @Model.PostedOn with rate @Model.Rate by @Model.ViewCount view(s)</sub>
-                            }
-                                <p>@Model.ShortDescription</p>
+                        int time = DateTime.Now.Hour - timePost.Hour;
+                        if (time == 0) {
+                            time = DateTime.Now.Minute - timePost.Minute;
+                            <sub class="post-subtitle">Posted @time minutes ago with rate @Model.Rate by @Model.ViewCount view(s)</sub>
                         }
-                    </div>
-                    <!-- Comment here -->
+                        if (time < 24 && time > 0) {
+                            <sub class="post-subtitle">Posted @time Hours ago with rate @Model.Rate by @Model.ViewCount view(s)</sub>
+                        } else if (DateTime.Now.Day - timePost.Day == 24) {
+                            <sub class="post-subtitle">Posted yesterday with rate @Model.Rate by @Model.ViewCount view(s)</sub>
+                        } else {
+                            <sub class="post-subtitle">Posted @Model.PostedOn with rate @Model.Rate by @Model.ViewCount view(s)</sub>
+                        }
+                        <p>@Model.ShortDescription</p>
+                    }
+                </div>
+                <!-- Comment here -->
                 <!-- Comments Section -->
                 <div class="comments-section">
                     <h3>Comments</h3>
 
                     <!-- Individual Comment -->
                     <form id="commentRealTime">
-                        @if (comments.Count == 0)
-                        {
+                        @if (comments.Count == 0) {
                             <div class="comment">
                                 <div class="comment-content">
                                     No comments yet.
                                 </div>
                             </div>
                         }
-                        @foreach (var comment in comments)
-                        {
-                            <div class="comment card">
+                        <!-- Individual Comment -->
+                        <!-- Individual Comment -->
+                        @foreach (var comment in comments) {
+                            <div class="comment card" id="comment-@comment.Id">
                                 <div class="card-body">
                                     <h5 class="card-title">@comment.Name</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">@comment.CommentTime</h6>
-                                    <p class="card-text">@comment.CommentText</p>
+                                    <p class="card-text" data-comment-text="@comment.CommentText">@comment.CommentText</p>
                                     @{
-                                        if (ViewBag.Email == comment.Email)
-                                        {
-                                                <div class="btn-group" role="group" aria-label="Basic example">
-                                                    <a href="@Url.Action("DeleteComment", "Comment", new { idC = comment.Id, postId = @Model.Id })" onclick="verifySubmit()" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</a>
-                                                    <a href="@Url.Action("EditComment", "Comment", new { idC = comment.Id, postId = @Model.Id })" class="btn btn-primary"><i class="fas fa-edit"></i> Edit</a>
-                                                </div>
+                                        if (ViewBag.Email == comment.Email) {
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <a href="@Url.Action("UpdateComment", "Comment", new { idC = comment.Id, postId = @Model.Id })" class="btn btn-primary edit-comment" data-comment-text="@comment.CommentText"><i class="fas fa-edit"></i> Edit</a>
+                                                <a href="@Url.Action("DeleteComment", "Comment", new { idC = comment.Id, postId = @Model.Id })" onclick="verifySubmit()" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</a>
+                                            </div>
                                         }
                                     }
                                 </div>
                             </div>
                         }
+
+
                     </form>
 
                     <!-- End Individual Comment -->
@@ -197,7 +190,7 @@
                             <div class="form-group">
                                 <textarea id="comment-content" name="content" class="form-control" placeholder="Write your comment here..." required></textarea>
                             </div>
-                            <input type="hidden" value="@Model.Id" name="postId"/>
+                            <input type="hidden" value="@Model.Id" name="postId" />
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
@@ -205,13 +198,36 @@
                 </div>
                 <!-- End Comments Section -->
                 <!--End Comment here -->
-
                 <!-- Pager-->
             </div>
         </div>
     </div>
     <!-- Footer-->
     @Html.Partial("_PartialFooter")
+
+
+
+
+    <!-- Edit Comment Modal -->
+    <div class="modal fade" id="editCommentModal" tabindex="-1" aria-labelledby="editCommentModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editCommentModalLabel">Edit Comment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <textarea id="edited-comment-content" class="form-control" placeholder="Edit your comment..."></textarea>
+                    <input type="hidden" id="edited-comment-id" />
+                    <input type="hidden" id="edited-comment-postId" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveEditedComment">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script>
         $(document).ready(function () {
             $.ajax({
@@ -231,10 +247,61 @@
                 }
             });
         });
+
+
+
+        $(document).ready(function () {
+            // ... your existing code ...
+
+            // Edit Comment
+            $('.edit-comment').click(function (e) {
+                e.preventDefault();
+
+                // Extract the commentId and postId from the edit link's href attribute
+                var href = $(this).attr('href');
+                var commentId = href.split('=')[1].split('&')[0];
+                var postId = href.split('=')[2];
+
+                // Populate the textarea in the modal with the comment text
+                $('#edited-comment-content').val($(this).data('comment-text'));
+
+                // Set the commentId and postId in the modal's hidden input fields
+                $('#edited-comment-id').val(commentId);
+                $('#edited-comment-postId').val(postId);
+
+                $('#editCommentModal').modal('show');
+            });
+
+            $('#saveEditedComment').click(function () {
+                var commentId = $('#edited-comment-id').val();
+                var updatedContent = $('#edited-comment-content').val();
+                var postId = $('#edited-comment-postId').val();
+
+                $.ajax({
+                    url: '@Url.Action("UpdateComment", "Comment")',
+                    type: 'POST',
+                    data: { commentId: commentId, updatedContent: updatedContent },
+                    success: function (data) {
+                        if (data.success) {
+                            // Update the data-comment-text attribute of the edit link
+                            $(`.edit-comment[data-comment-text="${updatedContent}"]`).data('comment-text', updatedContent);
+                            // Update the comment text in the view
+                            $(`#comment-${commentId} .card-text`).text(updatedContent);
+                            // Close the modal
+                            $('#editCommentModal').modal('hide');
+                            // Reload the page
+                            location.reload();
+                        } else {
+                            alert(data.message);
+                        }
+                    }
+                });
+            });
+        });
+
+
     </script>
-    <script>
-           
-    </script>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
