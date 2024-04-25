@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
-          "jQuery.jqGrid": "4.4.4"
+          "jQuery.jqGrid": "4.4.4",
+          "log4net": "2.0.17"
         },
         "runtime": {
           "FA.JustBlog.dll": {}
@@ -614,6 +615,17 @@
       "jQuery.UI.Combined/1.10.0": {
         "dependencies": {
           "jQuery": "1.9.1"
+        }
+      },
+      "log4net/2.0.17": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "2.0.17.0",
+            "fileVersion": "2.0.17.0"
+          }
         }
       },
       "MailKit/4.5.0": {
@@ -2078,7 +2090,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
+          "log4net": "2.0.17"
         },
         "runtime": {
           "FA.JustBlog.Core.dll": {}
@@ -2483,6 +2496,13 @@
       "sha512": "sha512-ubA0nnizWiMrokWGOx+XXVGgDsUZqNJuqkthmvR4gVBNVS2AZXUpN5A5huAyZO1aw6i1KBywa1FNskkT2FUEsw==",
       "path": "jquery.ui.combined/1.10.0",
       "hashPath": "jquery.ui.combined.1.10.0.nupkg.sha512"
+    },
+    "log4net/2.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qnnDf/ubJzwm2i1xH7nRMjEDoD+ctse7nZDqb+p7L1PvZc6ykpMoEesWr1/9hFqlsbII2v9e8yyQHJhoDQh7ZA==",
+      "path": "log4net/2.0.17",
+      "hashPath": "log4net.2.0.17.nupkg.sha512"
     },
     "MailKit/4.5.0": {
       "type": "package",
