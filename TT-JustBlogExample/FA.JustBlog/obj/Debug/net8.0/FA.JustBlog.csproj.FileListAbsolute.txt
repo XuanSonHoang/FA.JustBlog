@@ -273,3 +273,15 @@ D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\refint\F
 D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.pdb
 D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.genruntimeconfig.cache
 D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\ref\FA.JustBlog.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.csproj.AssemblyReference.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.AssemblyInfoInputs.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.AssemblyInfo.cs
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.csproj.CoreCompileInputs.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.MvcApplicationPartsAssemblyInfo.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.RazorAssemblyInfo.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.RazorAssemblyInfo.cs
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.sourcelink.json
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\refint\FA.JustBlog.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\obj\Debug\net8.0\FA.JustBlog.pdb

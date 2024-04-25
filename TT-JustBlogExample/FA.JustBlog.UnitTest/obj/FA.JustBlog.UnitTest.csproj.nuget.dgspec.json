@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj": {}
+    "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj": {
+    "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj",
+        "projectUniqueName": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj",
         "projectName": "FA.JustBlog.Core",
-        "projectPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\obj\\",
+        "projectPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj",
+        "packagesPath": "C:\\Users\\andep\\.nuget\\packages\\",
+        "outputPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andep\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
             }
           },
           "imports": [
@@ -79,17 +83,17 @@
         }
       }
     },
-    "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj": {
+    "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj",
+        "projectUniqueName": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj",
         "projectName": "FA.JustBlog.UnitTest",
-        "projectPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\obj\\",
+        "projectPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\FA.JustBlog.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\andep\\.nuget\\packages\\",
+        "outputPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andep\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj": {
-                "projectPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj"
+              "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj": {
+                "projectPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj"
               }
             }
           }
@@ -134,6 +138,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
             }
           },
           "imports": [

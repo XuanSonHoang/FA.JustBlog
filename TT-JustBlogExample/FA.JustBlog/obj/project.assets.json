@@ -669,6 +669,22 @@
           "jQuery": "1.6.4"
         }
       },
+      "log4net/2.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MailKit/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -3009,7 +3025,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
+          "log4net": "2.0.17"
         },
         "compile": {
           "bin/placeholder/FA.JustBlog.Core.dll": {}
@@ -3984,6 +4001,32 @@
         "Tools/uninstall.ps1",
         "jquery.ui.combined.1.10.0.nupkg.sha512",
         "jquery.ui.combined.nuspec"
+      ]
+    },
+    "log4net/2.0.17": {
+      "sha512": "qnnDf/ubJzwm2i1xH7nRMjEDoD+ctse7nZDqb+p7L1PvZc6ykpMoEesWr1/9hFqlsbII2v9e8yyQHJhoDQh7ZA==",
+      "type": "package",
+      "path": "log4net/2.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/log4net.dll",
+        "lib/net20/log4net.xml",
+        "lib/net35/log4net.dll",
+        "lib/net35/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40/log4net.dll",
+        "lib/net40/log4net.xml",
+        "lib/net45/log4net.dll",
+        "lib/net45/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "lib/netstandard1.3/log4net.xml",
+        "lib/netstandard2.0/log4net.dll",
+        "lib/netstandard2.0/log4net.xml",
+        "log4net.2.0.17.nupkg.sha512",
+        "log4net.nuspec",
+        "package-icon.png"
       ]
     },
     "MailKit/4.5.0": {
@@ -8402,23 +8445,24 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
-      "jQuery.jqGrid >= 4.4.4"
+      "jQuery.jqGrid >= 4.4.4",
+      "log4net >= 2.0.17"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\andep\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\FA.JustBlog.csproj",
+      "projectUniqueName": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog\\FA.JustBlog.csproj",
       "projectName": "FA.JustBlog",
-      "projectPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\FA.JustBlog.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\obj\\",
+      "projectPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog\\FA.JustBlog.csproj",
+      "packagesPath": "C:\\Users\\andep\\.nuget\\packages\\",
+      "outputPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andep\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8432,8 +8476,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj": {
-              "projectPath": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj"
+            "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj": {
+              "projectPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\FA.JustBlog.Core\\FA.JustBlog.Core.csproj"
             }
           }
         }
@@ -8481,6 +8525,10 @@
           "jQuery.jqGrid": {
             "target": "Package",
             "version": "[4.4.4, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.17, )"
           }
         },
         "imports": [
