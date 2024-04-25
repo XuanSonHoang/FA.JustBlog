@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "ListUsingJqGrid";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.6/css/ui.jqgrid.min.css" />
+    <style>
+        /* Add custom CSS here */
+    </style>
+</head>
+<body>
+    <table id="jqGrid"></table>
+    <div id="jqGridPager"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.6/jquery.jqgrid.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.6/plugins/jquery.jqgrid.showhidecolumns.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#jqGrid").jqGrid({
+                JsonReader: {
+                    repeatitems: false,
+                    Id: 'Id'
+                },
+                url: '@Url.RouteUrl("Admin_jqGrid")',
+                datatype: 'json',
+                mType: "GET",
+                colNames: ['Id', 'Title', 'Short Description', 'Content', 'URL Slug', 'Published', 'Posted On', 'Modified', 'Category ID', 'View Count', 'Rate Count', 'Total Rate', 'Rate'],
+                colModel: [
+                    { name: 'Id', width: 50 },
+                    { name: 'Title', width: 200 },
+                    { name: 'ShortDescription', width: 200 },
+                    { name: 'PostContent', width: 300 },
+                    { name: 'UrlSlug', width: 150 },
+                    { name: 'Published', width: 100, formatter: 'checkbox' },
+                    { name: 'PostedOn', width: 150 },
+                    { name: 'Modified', width: 150 },
+                    { name: 'CategoryId', width: 100 },
+                    { name: 'ViewCount', width: 100 },
+                    { name: 'RateCount', width: 100 },
+                    { name: 'TotalRate', width: 100 },
+                    { name: 'Rate', width: 100 }
+                ],
+                data: posts,
+                pager: '#jqGridPager',
+                viewrecords: true,
+                caption: 'List of Posts'
+            });
+        });
+    </script>
+
+</body>
+</html>

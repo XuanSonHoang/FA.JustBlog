@@ -1,0 +1,94 @@
+﻿@model List<FA.JustBlog.Models.UserWithRolesViewModel>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User List</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <style>
+        /* Add custom CSS styles here */
+        .container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">JustBlog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "Post")">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "Category")">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "Tag")">Tags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "User")">Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Role", "User")">Roles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="text-center mb-4">User List</h1>
+
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Email Confirmed</th>
+                    @{
+                        foreach(int i in Enumerable.Range(0, ViewBag.Count))
+                        {
+                            <th scope="col">Role</th>
+                        }
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var userWithRoles in Model)
+                {
+                    <tr>
+                        <td>@userWithRoles.User.Id</td>
+                        <td>@userWithRoles.User.UserName</td>
+                        <td>@userWithRoles.User.Email</td>
+                        <td>@userWithRoles.User.EmailConfirmed</td>
+                        <form asp-action="actionRole" asp-controller="User" method="post">
+                            <input type="hidden" name="userId" value="@userWithRoles.User.Id"/>
+                            @foreach(var role in ViewBag.Roles)
+                            {
+                                <td>
+                                    <input type="submit" name="roleName" value="@role" class="btn @(userWithRoles.Roles.Contains(role) ? "btn-success" : "btn-secondary")" />
+                                </td>
+                            }
+                        </form>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

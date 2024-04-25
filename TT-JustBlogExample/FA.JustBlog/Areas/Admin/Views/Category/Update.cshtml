@@ -1,0 +1,45 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model FA.JustBlog.Core.Models.Category;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Category - JustBlog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Create New Category</h1>
+        <form asp-action="Update" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @id = "name", @name = "name", @required = "required" })
+            </div>
+            <input value="@Model.Id" name="id" type="hidden"/>
+            <div class="form-group">
+                <label for="urlSlug">URL Slug</label>
+                @Html.TextBoxFor(m => m.UrlSlug, new { @class = "form-control", @id = "urlSlug", @name = "urlSlug", @required = "required" })
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @id = "description", @name = "description", @required = "required" })
+            </div>
+            <button type="submit" class="btn btn-primary">Update Category</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.tiny.cloud/1/kaapxfwaz25vc7vxujt23b7wp8uqhbcxbka2gxlvtlwl9s84/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

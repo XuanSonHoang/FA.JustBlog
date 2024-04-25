@@ -1,0 +1,17 @@
+﻿@model List<Post>
+
+@foreach (var post in Model)
+{
+    <!-- Divider-->
+    <hr class="my-4" />
+    <!-- Post preview-->
+    <div class="post-preview">
+        <a href="post.html">
+            <h2 class="post-title">@post.Title</h2>
+            <sub class="post-subtitle">Posted @post.PostedOn with rate @post.Rate by @post.ViewCount view(s)</sub>
+        </a>
+        <p>
+            @post.PostContent
+        </p>
+    </div>
+}

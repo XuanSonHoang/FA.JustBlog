@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FA.JustBlog.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FA.JustBlog.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin - Copy\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\assets\\img\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\admin - Copy\\assets\\img\\about-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\assets\\img\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\admin - Copy\\assets\\img\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\assets\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\admin - Copy\\assets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\assets\\img\\post-bg.jpg",
+      "PackagePath": "staticwebassets\\admin - Copy\\assets\\img\\post-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\assets\\img\\post-sample-image.jpg",
+      "PackagePath": "staticwebassets\\admin - Copy\\assets\\img\\post-sample-image.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin - Copy\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin - Copy\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\admin - Copy\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\assets\\img\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\about-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\assets\\img\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\assets\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\assets\\img\\post-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\post-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\assets\\img\\post-sample-image.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\post-sample-image.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\post\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\assets\\img\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\post\\assets\\img\\about-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\assets\\img\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\post\\assets\\img\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\assets\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\post\\assets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\assets\\img\\post-bg.jpg",
+      "PackagePath": "staticwebassets\\post\\assets\\img\\post-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\assets\\img\\post-sample-image.jpg",
+      "PackagePath": "staticwebassets\\post\\assets\\img\\post-sample-image.jpg"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\css\\styles.css",
+      "PackagePath": "staticwebassets\\post\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Kì 6 - OJT\\On Board\\TT-JustBlogExample\\FA.JustBlog\\wwwroot\\post\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\post\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FA.JustBlog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FA.JustBlog.props",
+      "PackagePath": "build\\FA.JustBlog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FA.JustBlog.props",
+      "PackagePath": "buildMultiTargeting\\FA.JustBlog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FA.JustBlog.props",
+      "PackagePath": "buildTransitive\\FA.JustBlog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
