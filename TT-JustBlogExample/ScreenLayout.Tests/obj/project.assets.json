@@ -1397,19 +1397,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andep\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\ScreenLayout.Tests\\ScreenLayout.Tests.csproj",
+      "projectUniqueName": "D:\\Kì 6 - OJT\\MergeCode\\FA.JustBlog\\TT-JustBlogExample\\ScreenLayout.Tests\\ScreenLayout.Tests.csproj",
       "projectName": "ScreenLayout.Tests",
-      "projectPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\ScreenLayout.Tests\\ScreenLayout.Tests.csproj",
-      "packagesPath": "C:\\Users\\andep\\.nuget\\packages\\",
-      "outputPath": "E:\\FPTU\\Sem_6\\Project (1)\\FA.JustBlog\\TT-JustBlogExample\\ScreenLayout.Tests\\obj\\",
+      "projectPath": "D:\\Kì 6 - OJT\\MergeCode\\FA.JustBlog\\TT-JustBlogExample\\ScreenLayout.Tests\\ScreenLayout.Tests.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "D:\\Kì 6 - OJT\\MergeCode\\FA.JustBlog\\TT-JustBlogExample\\ScreenLayout.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

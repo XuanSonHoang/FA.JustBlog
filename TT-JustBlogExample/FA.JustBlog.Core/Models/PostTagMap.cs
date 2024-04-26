@@ -15,7 +15,7 @@ namespace FA.JustBlog.Core.Models
 
         public int PostId { get; set; }
         public Post Post { get; set; }
-
+        
 
     }
 }

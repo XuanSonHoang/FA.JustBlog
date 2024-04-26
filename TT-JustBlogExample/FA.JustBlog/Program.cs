@@ -164,6 +164,12 @@ app.MapControllerRoute(
 );
 
 app.MapControllerRoute(
+       name: "Role_Delete",
+          pattern: "Admin/Role/Delete/{id?}",
+             new { controller = "Role", action = "Delete" }
+             );
+
+app.MapControllerRoute(
     name: "Tag",
     pattern: "tag/PopularTags/{id?}",
     new { controller = "Tag", action = "PopularTags" }
