@@ -1,0 +1,87 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<FA.JustBlog.Core.Models.Category>
+@{
+    var cates = ViewBag.Categories as List<FA.JustBlog.Core.Models.Category>;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustBlog Categories</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Add custom styles here */
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">JustBlog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "Post")">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "Category")">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "Tag")">Tags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("List", "User")">Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Role", "User")">Roles</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class="container mt-5">
+        <h1>JustBlog Categories</h1>
+        <a href="@Url.Action("Create", "Category")" class="btn btn-success">Create New Category</a>
+        <a href="@Url.Action("List", "Category")" class="btn btn-success">Back</a>
+        @if(Model != null)
+        {
+            <table class="table table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">URL Slug</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Action</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in cates)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.UrlSlug</td>
+                            <td>@item.Description</td>
+                            <td><a href="@Url.Action("Update", "Category")">Update</a></td>
+                            <td><a href="@Url.Action("Delete", "Category")">Delete</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        } else
+        {
+            <p>No categories found.</p>
+        }
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

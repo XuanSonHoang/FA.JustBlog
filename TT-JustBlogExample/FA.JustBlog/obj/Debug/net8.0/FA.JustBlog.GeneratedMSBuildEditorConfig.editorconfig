@@ -1,0 +1,239 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FA.JustBlog
+build_property.RootNamespace = FA.JustBlog
+build_property.ProjectDir = D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Category/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Comment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Comment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Comment/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Comment/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Post/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Post/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Post/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Post/ListUsingJqGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxMaXN0VXNpbmdKcUdyaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Post/PostsAction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxQb3N0c0FjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Post/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Role/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Tag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Tag/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Tag/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/Tag/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/User/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/User/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Admin/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/RegisterConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZWdpc3RlckNvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Areas/Identity/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Post/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Post/HighestViewCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxIaWdoZXN0Vmlld0NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Post/PostIncludeCates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0SW5jbHVkZUNhdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Post/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Post/_ListPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxfTGlzdFBvc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Shared/_PartialAboutCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQWJvdXRDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Shared/_PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Tag/PopularTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXFBvcHVsYXJUYWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Tag/_PopularTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXF9Qb3B1bGFyVGFncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kì 6 - OJT/MergeCode/FA.JustBlog/TT-JustBlogExample/FA.JustBlog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5fmvclbnwr

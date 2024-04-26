@@ -1,0 +1,20 @@
+﻿@model List<FA.JustBlog.Core.Models.Tag>
+@{
+    var stt = 1;
+}
+@foreach (var tag in Model)
+{
+    <!-- Divider-->
+    <hr class="my-4" />
+    <!-- Post preview-->
+    <div class="post-preview">
+        <a href="@Url.ActionLink("PopularTag", "Tag", new {Id = tag.Id})">
+            <h2 class="post-title">@stt. @tag.Name</h2>
+            <sub class="post-subtitle">@tag.UrlSlug</sub>
+        </a>
+        <p>
+            @tag.Description
+        </p>
+    </div>
+    stt++; 
+}

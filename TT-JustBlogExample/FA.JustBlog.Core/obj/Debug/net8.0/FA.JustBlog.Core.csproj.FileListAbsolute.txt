@@ -1,0 +1,45 @@
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.AssemblyInfo.cs
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.sourcelink.json
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.deps.json
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.runtimeconfig.json
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.pdb
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\refint\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.pdb
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.genruntimeconfig.cache
+D:\Kì 6 - OJT\On Board\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\ref\FA.JustBlog.Core.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.deps.json
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.runtimeconfig.json
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.pdb
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.AssemblyInfo.cs
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.sourcelink.json
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\refint\FA.JustBlog.Core.dll
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.pdb
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.genruntimeconfig.cache
+E:\FPTU\Sem_6\Project (1)\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\ref\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.deps.json
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.runtimeconfig.json
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\bin\Debug\net8.0\FA.JustBlog.Core.pdb
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.AssemblyInfo.cs
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.sourcelink.json
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\refint\FA.JustBlog.Core.dll
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.pdb
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\FA.JustBlog.Core.genruntimeconfig.cache
+D:\Kì 6 - OJT\MergeCode\FA.JustBlog\TT-JustBlogExample\FA.JustBlog.Core\obj\Debug\net8.0\ref\FA.JustBlog.Core.dll

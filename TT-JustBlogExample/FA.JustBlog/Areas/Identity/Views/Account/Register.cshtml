@@ -1,0 +1,64 @@
+﻿@model FA.JustBlog.Core.Models.RegisterModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Add your CSS links or styles here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add any additional stylesheets or meta tags as needed -->
+</head>
+<body>
+    <!-- Add your content here -->
+    <div class="container vertical-center">
+        <div class="row justify-content-center">
+            <div class="col-md-6 card p-3">
+                <h2 class="text-center text-info">Register</h2>
+                <form id="registerForm" asp-controller="Account" asp-action="Register" class="user" method="post">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="mb-3">
+                        <label asp-for="UserName"></label>
+                        <input asp-for="UserName" class="form-control" />   
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Age"></label>
+                        <input asp-for="Age" class="form-control" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="AboutMe"></label>
+                        <input asp-for="AboutMe" class="form-control" />
+                        <span asp-validation-for="AboutMe" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password"></label>
+                        <input asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="ConfirmPassword"></label>
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add your JavaScript links or scripts here -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.11/dist/jquery.validate.unobtrusive.min.js"></script>
+    <!-- Add any additional scripts or libraries as needed -->
+</body>
+</html>
